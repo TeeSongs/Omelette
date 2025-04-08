@@ -89,7 +89,6 @@ h1,.prep,h2,
     body {
         background-color: transparent;
         margin: 0;
-        height: auto;
     }
     .middle{
        padding: 20px;
@@ -137,7 +136,6 @@ h2{
     body {
         background-color: transparent;
         margin: 0;
-        height: auto;
     }
     .middle{
        padding: 20px;
