@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#FFCCBC;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 250vh; 
+    margin: 0; 
+}
+.middle{
+    background-color: #ffffff;
+    padding: 20px;
+    width: 50%; 
+    max-width: 600px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+.Omelette{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px; 
+}
+.first-p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    color: #333333;
+}
+h2 {
+    color:brown;
+
+}
+h4{
+    color: purple;
+    font-size: 20px;
+    /* margin-bottom: -20px; */
+}
+.preparation{
+    background-color:  #F3E5D8;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+ul, ol{
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.nut,
+td:nth-child(1)
+ {
+    color: black;
+    font-size: 20px;
+}
+table {
+    width: 100%;
+    margin: auto;
+}
+ td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+td:nth-child(2)
+ {
+    color: brown;
+    font-weight: bolder;
+    font-size: 20px;
+}
+h1,.prep,h2,
+.nut-top{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.prep{
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: transparent;
+        margin: 0;
+        height: 350vh;
+    }
+    .middle{
+       padding-left: 0;
+       padding-right: 0;
+       padding-top: 0;
+    }
+}
