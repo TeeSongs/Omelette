@@ -74,6 +74,7 @@ td:nth-child(2)
     font-weight: bolder;
     font-size: 20px;
 }
+
 h1,.prep,h2,
 .nut-top{
     margin-top: 20px;
@@ -88,11 +89,58 @@ h1,.prep,h2,
     body {
         background-color: transparent;
         margin: 0;
-        height: 350vh;
+        height: 270vh;
     }
     .middle{
-       padding-left: 0;
-       padding-right: 0;
-       padding-top: 0;
+       padding: 20px;
+       width: 100%;
+    }
+    .first-p{
+        font-size: 15px;
+        margin-bottom: 20px;
+        line-height: 22px;
+    }
+    h4{
+        color: purple;
+        font-size: 15px;
+        /* margin-bottom: -20px; */
+    }
+    ul, ol{
+        line-height: 25px;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    td:nth-child(2)
+ {
+    color: brown;
+    font-weight: bolder;
+    font-size: 15px;
+}
+td:nth-child(1)
+ {
+    color: black;
+    font-size: 15px;
+}
+
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 17px;
+}
+.nut{
+    font-size: 15px;
+}   
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: transparent;
+        margin: 0;
+        height: 300vh;
+    }
+    .middle{
+       padding: 20px;
+       width: 100%;
     }
 }
